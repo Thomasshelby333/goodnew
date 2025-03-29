@@ -27,6 +27,8 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 BOT_USERNAME = environ.get("BOT_USERNAME", "Xz7_bot") # without @
 PORT = environ.get("PORT", "8080")
 
+auth_channel = environ.get('AUTH_CHANNEL','-1001530900336')
+
 # Clone Info :-
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 
