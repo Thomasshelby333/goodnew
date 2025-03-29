@@ -85,13 +85,13 @@
 
 <b><details><summary>Tap On Me For See Credit</summary>
 
-💝 Credit Goes To [Tech VJ](https://telegram.me/thomas_shelby_0_7)
+💝 Credit Goes To (https://telegram.me/thomas_shelby_0_7)
 
-🖍️ This Code Is Fully Written Or Coded And Public By [Tech VJ](https://telegram.me/thomas_shelby_0_7) So Don't Forgot To Give Credit
+🖍️ This Code Is Fully Written Or Coded And Public By (https://telegram.me/thomas_shelby_0_7) So Don't Forgot To Give Credit
 
 💖 And Thank You So Much To All Who Help In This Journey 💕
 
-Copyright ©️ [Tech VJ](https://telegram.me/thomas_shelby_0_7)
+Copyright ©️ (https://telegram.me/thomas_shelby_0_7)
 
 </b>
 </details>
