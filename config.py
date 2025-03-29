@@ -1,6 +1,4 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
 
 
 import re
@@ -23,7 +21,7 @@ API_HASH = environ.get("API_HASH", "f9b377f83f916d783f25d95a2f4e232e")
 BOT_TOKEN = environ.get("BOT_TOKEN", "5747961404:AAGJHYJFGw6Vcl_yX9Ujy0SQYsPQcfEnddU")
 
 PICS = (environ.get('PICS', 'https://i.ibb.co/ZzwDVGBY/x.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5431249569').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Xz7_bot") # without @
 PORT = environ.get("PORT", "8080")
 
@@ -52,7 +50,7 @@ AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "600")) # Time in Seconds
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002587721890"))
 
 # File Caption Information
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", (f"TML{"CAPTION"}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 
 # Enable - True or Disable - False
