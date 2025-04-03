@@ -171,7 +171,7 @@ async def start(client, message):
                         stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
                         download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
                         button = [[
-                            InlineKeyboardButton("• 💝ᴅᴏᴡɴʟᴏᴀᴅ💝 •", url=download),
+                            InlineKeyboardButton("• 🚀ᴅᴏᴡɴʟᴏᴀᴅ🚀 •", url=download),
                             InlineKeyboardButton('• 💝ᴡᴀᴛᴄʜ💝 •', url=stream)
                         ],[
                             InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
@@ -244,7 +244,7 @@ async def start(client, message):
                     stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
                     download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
                     button = [[
-                        InlineKeyboardButton("• 💝ᴅᴏᴡɴʟᴏᴀᴅ💝 •", url=download),
+                        InlineKeyboardButton("• 🚀ᴅᴏᴡɴʟᴏᴀᴅ🚀 •", url=download),
                         InlineKeyboardButton('• 💝ᴡᴀᴛᴄʜ💝 •', url=stream)
                     ],[
                         InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
