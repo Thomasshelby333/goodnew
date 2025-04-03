@@ -174,7 +174,7 @@ async def start(client, message):
                             InlineKeyboardButton("• 🚀ᴅᴏᴡɴʟᴏᴀᴅ🚀 •", url=download),
                             InlineKeyboardButton('• 💝ᴡᴀᴛᴄʜ💝 •', url=stream)
                         ],[
-                            InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                            InlineKeyboardButton("• 🌐ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ🌐 •", web_app=WebAppInfo(url=stream))
                         ]]
                         reply_markup=InlineKeyboardMarkup(button)
                 else:
@@ -247,7 +247,7 @@ async def start(client, message):
                         InlineKeyboardButton("• 🚀ᴅᴏᴡɴʟᴏᴀᴅ🚀 •", url=download),
                         InlineKeyboardButton('• 💝ᴡᴀᴛᴄʜ💝 •', url=stream)
                     ],[
-                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                        InlineKeyboardButton("• 🌐ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ🌐 •", web_app=WebAppInfo(url=stream))
                     ]]
                     reply_markup=InlineKeyboardMarkup(button)
             else:
