@@ -14,7 +14,7 @@ from plugins.users_api import get_user, update_user_info
 from pyrogram.errors import *
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from utils import verify_user, check_token, check_verification, get_token
-from config import AUTH_CHANNEL*
+from config import AUTH_CHANNEL
 import re
 import json
 import base64
@@ -61,10 +61,8 @@ def formate_file_name(file_name):
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
-     client = client
-     message = message
-     if AUTH_CHANNEL:
-        try:
+    if AUTH_CHANNEL:
+       try:
             btn = await is_subscribed(client, message, AUTH_CHANNEL)
             if btn:
                 username = (await client.get_me()).username
@@ -74,7 +72,7 @@ async def start(client, message):
                     btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start=true")])
                 await message.reply_text(text=f"<b>👋 Hello {message.from_user.mention},\n\nPlease join the channel then click on try again button. 😇</b>", reply_markup=InlineKeyboardMarkup(btn))
                 return
-         except Exception as e:
+        except Exception as e:
             print(e)
              
     username = client.me.username
