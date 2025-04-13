@@ -14,7 +14,7 @@ from plugins.users_api import get_user, update_user_info
 from pyrogram.errors import *
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from utils import verify_user, check_token, check_verification, get_token
-from config import AUTH_CHANNEL
+from config import AUTH_CHANNEL*
 import re
 import json
 import base64
@@ -76,6 +76,7 @@ async def start(client, message):
                 return
          except Exception as e:
             print(e)
+             
     username = client.me.username
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id, message.from_user.first_name)
